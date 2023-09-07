@@ -3,6 +3,7 @@
  * main - Entry point
  *
  * Describtion: A C program that prints with put function
+ * execution.
  *
  * Return: Always 0 to indicate success
 */

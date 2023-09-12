@@ -5,7 +5,7 @@
  *
  * Describtion: printing alphabet 10 times
  *
- * print_alphabet_x10: function printing alphabet 10 times
+ * print_alphabet_x10 - function printing alphabet 10 times
  *
  * Return: Always 0.
  */

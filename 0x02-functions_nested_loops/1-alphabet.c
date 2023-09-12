@@ -3,15 +3,19 @@
 /**
  * main - check the code
  *
+ * print_alphabet - Entry point
  * Describtion: print alphabet in lower case
  * Return: Always 0.
  */
 
 void print_alphabet(void)
 {
-	int ch;
+	char ch + 'a';
 
-	for (ch = 'a'; ch <= 'z'; ch++);
-	_putchar(ch);
+	while (ch <='z')
+	{	
+		_putchar(ch);
+		ch++;
+	}
 	_putchar('\n');
 }

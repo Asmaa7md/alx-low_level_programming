@@ -8,16 +8,8 @@
 int main(void)
 {
 	int i;
-
-	for (i = 0; i <= 98; i++)
-	{
-		while (i > 0)
-		{
-			printf("positive")
-		}
-		else
-			printf("negative"
-	}
+	i = 98;
+	printf("positive")
 
 	return (0);
 }

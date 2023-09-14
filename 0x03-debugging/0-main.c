@@ -7,10 +7,15 @@
 
 int main(void)
 {
-        int i;
+	int i;
 
-        i = 98;
-        positive_or_negative(i);
+	for (i = 0; i <= 98; i++)
+	{
+		while i > 0
+			printf("positive")
+		else
+			printf("negative"
+	}
 
-        return (0);
+	return (0);
 }

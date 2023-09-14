@@ -11,8 +11,10 @@ int main(void)
 
 	for (i = 0; i <= 98; i++)
 	{
-		while i > 0
+		while (i > 0)
+		{
 			printf("positive")
+		}
 		else
 			printf("negative"
 	}

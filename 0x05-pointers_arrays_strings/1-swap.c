@@ -7,9 +7,10 @@
  * @b: pointer 2
  * Return: no return
  */
+
 void swap_int(int *a, int *b);
 {
-	*a = x;
-	*b = x;
+	*a = tmp;
+	*b = tmp;
 	*a = *b;
 }

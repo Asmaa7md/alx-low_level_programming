@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * *_strcat - concatenates two strings
  * @dest: pointer destination
@@ -9,21 +8,17 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int x = -1;
-	int y;
+int a = -1, i;
+for (i = 0; dest[i] != '\0'; i++)
+;
 
-	for (y = 0; dest[y] != '\0'; y++);
+do {
+	a++;
+	dest[i] = src[a];
+	i++;
+} while (src[a] != '\0');
 
-	do {
-		x++;
-		dest[y] = src[x];
-		y++;
-
-	} while (src[x] != '\0');
-
-	return (dest);
+return (dest);
 }
-
-
 
 

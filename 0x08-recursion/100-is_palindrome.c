@@ -7,9 +7,7 @@
  * Return: 0 or 1
 */
 
-int is_palindrome(char *s)
-{
-	int last_index(char *s)
+int last_index(char *s)
 {
 	int n = 0;
 

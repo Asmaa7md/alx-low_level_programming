@@ -1,11 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * is_palindrome - defines if the string is palindrome
- * @s: pointer to a string
- * Return: 0 or 1
-*/
+ * last_index - returns the last index of a string (counts the null char)
+ * @s: pointer the string
+ * Return: int
+ */
 
 int last_index(char *s)
 {

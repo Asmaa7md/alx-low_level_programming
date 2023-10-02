@@ -2,20 +2,16 @@
 
 /**
  * main - prints all arguments it receives
- * @argc: number
+ * @argc: number of characters
  * @argv: pointer to characters array
  * Return: 0
 */
+
 int main(int argc, char *argv[])
 {
-	int x;
-	
-	x = 0;
-	if (x < argc)
-	{
-		printf("%s\n", argv[x]);
-		x++;
-	}
+	int i;
+
+	for (i = 0; i < argc; i++)
+		printf("%s\n", argv[i]);
 	return (0);
 }
-

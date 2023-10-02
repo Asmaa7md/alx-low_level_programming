@@ -9,8 +9,9 @@
 int main(int argc, char *argv[])
 {
 	int x;
-
-	if(x < argv)
+	
+	x = 0;
+	if (x < argv)
 	{
 		printf("%s\n", x);
 		x++;

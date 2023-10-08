@@ -1,13 +1,10 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /**
  * _memset - prints buffer in hexa
  * @s: pointer
  * @b: number of characters
- *
+ * @n: number of bytes
  * Return: Nothing.
 */
 char *_memset(char *s, char x, unsigned int n)
@@ -26,7 +23,7 @@ char *_memset(char *s, char x, unsigned int n)
  * @nmemb: n elements
  * @size: bytes
  * Return: pointer
- */
+*/
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *p;

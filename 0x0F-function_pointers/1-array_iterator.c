@@ -3,7 +3,7 @@
 
 /**
  * array_iterator - prints an integer
- * @:size: the size of the array
+ * @size: the size of the array
  * @action: pointer to the function
  * @array: integers
  *
